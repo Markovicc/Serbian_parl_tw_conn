@@ -1,1 +1,1 @@
-# Serbian_parl_tw_conn
+This app shows relationships on Twitter between members of National Assembly of the Republic of Serbia.
