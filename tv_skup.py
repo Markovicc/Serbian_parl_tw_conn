@@ -7,10 +7,10 @@ Created on Fri Jul  7 11:30:58 2017
 import time
 import tweepy
 from tweepy import OAuthHandler
-CONSUMER_KEY = 'eFnpkxeqNtSJ9h4bSd1me63zv'
-CONSUMER_SECRET = 'qLzsWfYujDZHNDT0Z3Eqsf6BGcAobsCShFSQmSmadndlINLb78'
-OAUTH_TOKEN = '836911248151281665-kYoueWxwQxL4aRKpiXj2FGijjn6i1Xk'
-OAUTH_TOKEN_SECRET = 'rWbALCNrKmv3T2rrwyJiPF0MhOVLP3kXaoEVGYKdULeBi'
+CONSUMER_KEY = '****'
+CONSUMER_SECRET = '***'
+OAUTH_TOKEN = '***'
+OAUTH_TOKEN_SECRET = '***'
 auth = OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 api = tweepy.API(auth)
